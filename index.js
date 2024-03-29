@@ -1,5 +1,7 @@
-let x = 5;
+let txt1 = "20";
 
-x -= 10;
+let text2 = "5";
 
-console.log(x);
+let result = txt1 < text2;
+
+console.log(result);
