@@ -1,6 +1,5 @@
-const cars = ["SAbb", "Volvo","BMW"];
+let x = 5;
 
-cars[1] = "Toyata";
-cars.push("Array");
+x -= 10;
 
-console.log(cars);
+console.log(x);
