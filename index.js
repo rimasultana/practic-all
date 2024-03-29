@@ -1,5 +1,6 @@
-carName = "Volvo";
+const cars = ["SAbb", "Volvo","BMW"];
 
-var carName;
+cars[1] = "Toyata";
+cars.push("Array");
 
-console.log(carName);
+console.log(cars);
