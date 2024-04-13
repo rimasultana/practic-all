@@ -1,6 +1,8 @@
-let x = 5;
+const car = {type:"Fiat", model:"500", color:"white"};
 
 
+console.log(car);
 
+let x = "rima"
 
-console.log(x ** 2);
+console.console.log(x);
