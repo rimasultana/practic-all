@@ -1,14 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Document</title>
-  </head>
-  <body>
-    <h1>Javascript</h1>
+<h1>Javascript</h1>
 
-    <h1>My First Web Page</h1>
-    <p>My first paragraph.</p>
-    <p id="demo">hello</p>
-    <script src="index.js"></script>
-  </body>
-</html>
+<p id="demo"></p>
+
+<script>
+
+function myFunction(p1, p2) {
+  return p1*p2;
+}
+
+let result = myFunction(5, 6);
+document.getElementById("demo").innerHTML = result;
+
+</script>
