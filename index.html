@@ -4,8 +4,13 @@
 
 <script>
 
-let car = "Fiat";
+const car = {
+  type:"Fiat",
+  model:"500",
+  color:"white"
+};
+document.getElementById("demo").innerHTML = "The car type is " + car.type;
 
-document.getElementById("demo").innerHTML = car;
+
 
 </script>
