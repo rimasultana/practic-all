@@ -9,7 +9,9 @@ friends.push('Mobasshir');
 friends.push('Rahim');
 friends.push('Arif');
 // 
-friends.pop();
-friends.pop();
-var element = friends.pop();
-console.log(element);
+ friends.shift();
+ friends.shift();
+
+ friends.unshift('Abir');
+ friends.unshift('Ovi');
+ console.log(friends);
