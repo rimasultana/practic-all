@@ -1,12 +1,11 @@
-var numbers = [45, 56, 98, 38, 34, 90];
- var element = numbers[1];
-// console.log(element);
+var numbers = [45, 45, 66, 31, 90];
+numbers.push(50);
 
-numbers[3] = 108;
-numbers[1]= 75;
+console.log(numbers);
 
-// console.log(numbers);
+var friends = ['Rima', 'Nodhi', 'Joita'];
 
-var position = numbers.indexOf(38);
-
-console.log(position);
+friends.push('Mobasshir');
+friends.push('Rahim');
+friends.push('Arif');
+console.log(friends);
