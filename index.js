@@ -8,4 +8,8 @@ var friends = ['Rima', 'Nodhi', 'Joita'];
 friends.push('Mobasshir');
 friends.push('Rahim');
 friends.push('Arif');
-console.log(friends);
+// 
+friends.pop();
+friends.pop();
+var element = friends.pop();
+console.log(element);
