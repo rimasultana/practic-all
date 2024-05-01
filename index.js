@@ -13,7 +13,9 @@ var Graduation = true;
 
 var salary = 2500;
 
-if(Graduation === true && salary > 5000){
+var cars = 0;
+
+if(Graduation === true && salary > 5000 && cars >= 1){
     console.log("asho biya kori")
 }else{
     console.log("tor kopale biya nai!!!!")
