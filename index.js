@@ -7,3 +7,14 @@ if(myMoney < phonePrize){
 }else{
     console.log("normal Phone kinbo")
 };
+
+
+var Graduation = true;
+
+var salary = 2500;
+
+if(Graduation === true && salary > 5000){
+    console.log("asho biya kori")
+}else{
+    console.log("tor kopale biya nai!!!!")
+}
