@@ -13,3 +13,11 @@ while(rostGiven < 7 ){
     rostGiven++;
 
 }
+
+var number = 1;
+while(number < 100 ){
+    console.log('jor number')
+    console.log(number)
+    number++
+
+}
