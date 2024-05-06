@@ -1,6 +1,6 @@
-var rostGiven = 0;
-while(rostGiven < 8 ) {
-    console.log('Rost den, please')
-    console.log(rostGiven)
-    rostGiven++;
+var num = 0;
+while(num < 5){
+console.log("hello")
+console.log(num);
+num++;
 }
