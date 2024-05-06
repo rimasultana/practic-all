@@ -14,7 +14,7 @@ while(rostGiven < 7 ){
 
 }
 
-var number = 1;
+var number = 0;
 while(number < 100 ){
     console.log('jor number')
     console.log(number);
