@@ -18,7 +18,15 @@
 // }
 
 var numbers = [45, 37, 23, 56, 80, 56, 23];
-for(i = 0; i < 7; i++ ){
+for(i = 0; i < numbers.length; i++ ){
     var number = numbers[i];
     console.log(number);
 }
+
+var items = ['pen', 'book', 'pencile', 'rumal','churi','kfiei','oduf','douiuf','jjdii','idujhnfu']
+for (i = 0; i < items.length; i++){
+    var item = items[i];
+    console.log(item)
+}
+
+
