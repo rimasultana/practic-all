@@ -35,12 +35,13 @@
 //     }
 // }
 
-var numbers = [10, 38, 48, 89, 84, 84, 98,13, 34 ,44]
+var numbers = [10, 38, 48, 89, 84, 84,384,373, 98,13, 34 ,44]
 
 for (i = 0; i < numbers.length; i++){
     var number = numbers[i];
-    console.log(i);
-    if(number > 8){
+    if(number > 100){
         break;
     }
+    console.log(number);
+  
 }
