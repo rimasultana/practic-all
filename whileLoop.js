@@ -12,8 +12,13 @@
 
 
 // simple verson for loop
-console.log("simple verson for for loop")
-for (i = 0; i < 7 ; i++){
-    console.log(i);
-}
+// console.log("simple verson for for loop")
+// for (i = 0; i < 7 ; i++){
+//     console.log(i);
+// }
 
+var numbers = [45, 37, 23, 56, 80, 56, 23];
+for(i = 0; i < 7; i++ ){
+    var number = numbers[i];
+    console.log(number);
+}
