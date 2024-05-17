@@ -39,8 +39,8 @@ var numbers = [10, 38, 48, 89, 84, 84,384,373, 98,13, 34 ,44]
 
 for (i = 0; i < numbers.length; i++){
     var number = numbers[i];
-    if(number > 100){
-        break;
+    if(number > 50){
+        continue;
     }
     console.log(number);
   
