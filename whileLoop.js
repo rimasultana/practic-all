@@ -17,22 +17,30 @@
 //     console.log(i);
 // }
 
-var numbers = [45, 37, 23, 56, 80, 56, 23];
-for(i = 0; i < numbers.length; i++ ){
+// var numbers = [45, 37, 23, 56, 80, 56, 23];
+// for(i = 0; i < numbers.length; i++ ){
+//     var number = numbers[i];
+//     console.log(number);
+//     if(number > 50){
+//         break;
+//     }
+// }
+
+// var items = ['pen', 'book', 'pencile', 'rumal','churi','kfiei','oduf','douiuf','jjdii','idujhnfu']
+// for (i = 0; i < items.length; i++){
+//     var item = items[i];
+//     console.log(item)
+//     if(item == 'churi'){
+//         break;
+//     }
+// }
+
+var numbers = [10, 38, 48, 89, 84, 84, 98,13, 34 ,44]
+
+for (i = 0; i < numbers.length; i++){
     var number = numbers[i];
-    console.log(number);
-    if(number > 50){
+    console.log(i);
+    if(number > 8){
         break;
     }
 }
-
-var items = ['pen', 'book', 'pencile', 'rumal','churi','kfiei','oduf','douiuf','jjdii','idujhnfu']
-for (i = 0; i < items.length; i++){
-    var item = items[i];
-    console.log(item)
-    if(item == 'churi'){
-        break;
-    }
-}
-
-
