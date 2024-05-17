@@ -5,3 +5,4 @@ while(rostGiven < 7) {
     console.log(rostGiven)
     rostGiven++;
 }
+
