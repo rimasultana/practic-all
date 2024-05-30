@@ -21,7 +21,7 @@ if(Graduation === true || salary > 5000 || cars >= 1){
     console.log("tor kopale biya nai!!!!")
 }
 
-var money = 10;
+var money = 15;
 var singara = 35;
 var pototo = 20;
 var chomocha = 15;
@@ -32,12 +32,9 @@ if(singara < money){
 else if(pototo < money){
     console.log("potato khabo")
 }
-
-
-
-
-
-
+else if(chomocha){
+    console.log("chomucha khabo")
+}
 else{
     console.log('cha khabo')
 }
