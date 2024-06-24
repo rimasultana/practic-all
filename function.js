@@ -13,7 +13,19 @@
 // const x = myFunction(2,5);
 // console.log(x);
 
-const x = function (a, b) {
-    return a * b
+// const x = function (a, b) {
+//     return a * b
+// }
+// console.log(x(2,4));
+
+// const myFunction = new Function ("a", "b" , "return a * b");
+// let x = myFunction(2, 3);
+// console.log(x);
+
+const myFunction = function(a, b)
+{
+    return a * b 
 }
-console.log(x(2,4));
+let x = myFunction(2, 3)
+
+console.log(x);
