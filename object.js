@@ -27,6 +27,7 @@ const person = {
 };
 //  added a method
  person.name = function(){
-    return this.firstName + " " + this.lastName;
+    return (this.firstName + " " + this.lastName).toUpperCase()
  };
+ 
  console.log(" My name is " + person.name());
