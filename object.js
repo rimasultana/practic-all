@@ -29,5 +29,5 @@ const person = {
     age : 20,
     eyeColor : "blue"
 }
-console.log(person.firstName + " is " + person.age +  "years old");
+console.log(person.firstName + " is " + person.age + " "+"years old");
 
