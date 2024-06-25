@@ -1,55 +1,21 @@
-// const car = {
-//     type : "Flat",
-//     model : "500",
-//     color : "white"
-// };
-// console.log(car);
-
-// const person = {
-//     firstName : "Rima",
-//     lastName : "Sultana",
+//  myObject = {
+//     name : "Rima",
 //     age : 20,
-//     eyeColor : "blue"
+//     carName : {
+//         car1 : "Ford",
+//         car2 : "BMW",
+//         car3 : "Fiat"
+//     }
+//  }
 
-// };
-// console.log(person);
-
-
-// const person = {};
-// person.firstName = "Rima";
-// person.lastName = "Sultana";
-// person.aga = 20;
-// person.eyeColor = "blue";
-
-// console.log(person)
+//  console.log(myObject.carName.car2);
 
 const person = {
-    firstName :"Rima",
+    firstName : "Rima",
     lastName : "Sultana",
-    age : 20,
-    eyeColor : "blue"
+    id : 770688,
+    fullName : function(){
+        return this.firstName + " " + this.lastName;
+    }
 }
-
-person.nationality = "Enlish";
-console.log(person.firstName + " is " + person.nationality + " . ");
-
-// const person = {
-//     firstName : "Rima",
-//     lastName : "Sultana",
-//     age : 20,
-//     eyeColor : "blue"
-// };
-// console.log(person["firstName"]+ " is " + person["age"] + " " + "years old");
-
-
-// const person = {
-//     firstName : "Rima",
-//     lastName : "Sultana",
-//     age : 20,
-
-// };
-//  let x = "firstName";
-//  let y = "age";
-
-
-// console.log(person[x]+ " is " + person[y]+ " " + "years old");
+console.log(person.fullName());
