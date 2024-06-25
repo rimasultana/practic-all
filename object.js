@@ -23,11 +23,18 @@
 
 // console.log(person)
 
+// const person = {
+//     firstName :"Rima",
+//     lastName : "Sultana",
+//     age : 20,
+//     eyeColor : "blue"
+// }
+// console.log(person.firstName + " is " + person.age + " "+"years old");
+
 const person = {
-    firstName :"Rima",
+    firstName : "Rima",
     lastName : "Sultana",
     age : 20,
     eyeColor : "blue"
-}
-console.log(person.firstName + " is " + person.age + " "+"years old");
-
+};
+console.log(person["firstName"]+ " is " + person["age"] + " " + "years old");
