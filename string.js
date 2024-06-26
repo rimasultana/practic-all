@@ -12,13 +12,13 @@
 // let text = 'It\'s alright';
 // console.log(text);
 
-// let x = "The character \\ is called backslash ";
-// console.log(x);
-// let y = new String ("RIma");
+let x = "The character \\ is called backslash ";
+console.log(x);
+let y = new String ("RIma");
 
-// console.log( typeof y)
+console.log( typeof y)
 
-let x = new String("John");  // x is an object
-let y = new String("John");  // y is an object
+// let x = new String("John");  // x is an object
+// let y = new String("John");  // y is an object
 
-console.log(x == y);
+// console.log(x == y);
