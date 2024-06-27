@@ -52,3 +52,4 @@ function toCelcease(F){
 let value = toCelcease(77);
 
 console.log(value);
+console.log(value);
