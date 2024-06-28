@@ -25,9 +25,12 @@
 //     lastName : "Sultana",
 //     id : 770688
 // };
-// //  added a method
-//  person.name = function(){
-//     return (this.firstName + " " + this.lastName).toUpperCase()
-//  };
+//  added a method
+ person.name = function(){
+    return (this.firstName + " " + this.lastName).toUpperCase()
+ };
  
-//  console.log(" My name is " + person.name());
+ console.log(" My name is " + person.name());
+
+
+
