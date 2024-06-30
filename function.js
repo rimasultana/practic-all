@@ -22,10 +22,17 @@
 // let x = myFunction(2, 3);
 // console.log(x);
 
-const myFunction = function(a, b)
-{
-    return a * b 
-}
-let x = myFunction(2, 3)
+// const myFunction = function(a, b)
+// {
+//     return a * b 
+// }
+// let x = myFunction(2, 3)
 
+// console.log(x);
+
+function myFunction(p1, p2) {
+    return p1 + p2;
+}
+
+const x = myFunction(2, 3);
 console.log(x);
