@@ -30,9 +30,17 @@
 
 // console.log(x);
 
-function myFunction(p1, p2) {
-    return p1 + p2;
-}
+// function myFunction(p1, p2) {
+//     return p1 + p2;
+// }
 
-const x = myFunction(2, 3);
-console.log(x);
+// const x = myFunction(2, 3);
+// console.log(x);
+
+
+let x = myFunction( 4, 3)
+ function myFunction(a, b) {
+    return a * b;
+ }
+ console.log(x);
+ 
