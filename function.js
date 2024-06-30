@@ -38,9 +38,17 @@
 // console.log(x);
 
 
-let x = myFunction( 4, 3)
- function myFunction(a, b) {
-    return a * b;
- }
- console.log(x);
+// let x = myFunction( 4, 3)
+//  function myFunction(a, b) {
+//     return a * b;
+//  }
+//  console.log(x);
  
+
+function toCelcease(F){
+    return (5/9) * (F - 32);
+
+}
+let value = toCelcease(77);
+
+console.log(value);
